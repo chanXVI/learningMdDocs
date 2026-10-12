@@ -18,12 +18,7 @@ Give the reader a memorable mental model before the technical detail. Each image
 
 ## Workflow
 
-1. Write the concept's main takeaway in one sentence.
-2. Choose one action or relationship the overview should explain.
-3. Read the relevant upstream references under `third-party/ian-xiaohei-illustrations/ian-xiaohei-illustrations/references/`.
-4. Generate one original image using the prompt below, adapted to the topic. Sample images are for style calibration.
-5. Inspect the result for accuracy and readable labels; edit or regenerate if needed.
-6. Save it as `assets/<topic-slug>-illustrations/01-overview.png`; embed it with meaningful alt text and a one-sentence caption.
+Use the repo-local `it-overview-illustrations` skill at `skills/it-overview-illustrations/SKILL.md` for generation, editing, inspection, and delivery. This guide maintains the visual conventions and prompt; the skill maintains the workflow.
 
 ## Prompt starting point
 

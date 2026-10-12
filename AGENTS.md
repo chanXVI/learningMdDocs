@@ -15,14 +15,9 @@ This workspace contains Markdown documentation for learning networking and IT co
 
 ## Overview illustrations
 
-- Use [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) as the visual reference for concept overviews. Read `docs/illustration-style.md` before creating an illustration.
-- For a concept note, normally include one original overview illustration near the top, with a short caption and descriptive alt text. Skip it for trivial facts or command-only answers.
-- Use a 16:9 white background, sparse black hand-drawn lines, ample whitespace, and restrained orange/red/blue accents. Make the small black character participate in the explanatory action.
-- Use short English labels unless the user requests another language. Explain one concept per image; keep detailed protocol behavior in the text and Mermaid diagram.
-- Generate topic-specific bitmap illustrations using the available image generation tool. Save final images under `assets/<topic-slug>-illustrations/` and embed them using relative Markdown paths. Preserve existing assets.
-- The upstream skill, references, and three sample images are in `third-party/ian-xiaohei-illustrations/`. Samples calibrate style; do not present them as IT explanations or copy their compositions by default.
-- Preserve upstream attribution, `LICENSE`, and `NOTICE.md`. Credit Ian's illustration approach in derived documentation.
-- Inspect generated images for readable labels, conceptual accuracy, visual simplicity, and consistency with the note. If generation is unavailable, say so and use Mermaid; do not leave a broken image link or claim an image exists.
+- When creating a network/IT concept note or creating or updating its overview illustration, use `$it-overview-illustrations`. If it is not listed as a discovered skill, read and follow `skills/it-overview-illustrations/SKILL.md` directly.
+- The skill handles the illustration workflow; `docs/illustration-style.md` holds the English visual conventions and prompt. Read upstream references only as needed.
+- Keep the pinned upstream package under `third-party/ian-xiaohei-illustrations/` unchanged during ordinary note work. Preserve its license, attribution, and provenance.
 
 ## Mermaid diagrams
 
